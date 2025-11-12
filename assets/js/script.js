@@ -14,10 +14,7 @@ if (e.keyCode == 13 || e.target === addToListButton) {
 if (textInputBox.value) {
 // create a new HTML li element
 const newListElement = document.createElement('li');
-// add event listener to new list item
-        // newListElement.addEventListener('click', removeFromList);
-        // add list item button
-        // newListElement.innerHTML = textInputBox.value + " <button onclick='removeFromList'>Delete</button>";
+        // set the text of the new element
        newListElement.innerHTML = textInputBox.value
         // clear text box
         textInputBox.value = '';
