@@ -18,10 +18,8 @@ const newListElement = document.createElement('li');
        newListElement.innerHTML = textInputBox.value
         // clear text box
         textInputBox.value = '';
-
         // add element to list
         myList.appendChild(newListElement);
-
         // focus on text input
         textInputBox.focus();
     }
